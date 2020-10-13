@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name antmicro-alvium-flex-csi-adapter-footprints)(type KiCad)(uri /home/hubert/antmicro-alvium-flexible-csi-adapter-hw/lib/antmicro-alvium-flex-csi-adapter-footprints)(options "")(descr ""))
+)

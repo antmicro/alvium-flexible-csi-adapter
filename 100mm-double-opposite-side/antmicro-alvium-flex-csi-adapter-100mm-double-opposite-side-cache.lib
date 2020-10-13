@@ -1,12 +1,12 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# antmicroFCCConnectors_WE_687622100002_FLEX
+# antmicro-alvium-flex-csi-adapter_WE_687622100002_FLEX
 #
-DEF antmicroFCCConnectors_WE_687622100002_FLEX J 0 40 Y N 1 F N
+DEF antmicro-alvium-flex-csi-adapter_WE_687622100002_FLEX J 0 40 Y N 1 F N
 F0 "J" 0 1100 50 H V C CNN
-F1 "antmicroFCCConnectors_WE_687622100002_FLEX" -25 -1350 50 H V C CNN
-F2 "antmicro-footprints:WE_687622100002_FLEX" -125 -1450 50 H I C CNN
+F1 "antmicro-alvium-flex-csi-adapter_WE_687622100002_FLEX" -25 -1350 50 H V C CNN
+F2 "antmicro-alvium-flex-csi-adapter-footprints:WE_687622100002_FLEX" -125 -1450 50 H I C CNN
 F3 "" 75 -1550 50 H I C CNN
 F4 "687622100002" 275 200 60 H I L CNN "MPN"
 F5 "Wurth Elektronik " 275 75 60 H I L CNN "Manufacturer"
@@ -59,12 +59,12 @@ X Pin_9 9 -200 200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicroFCCConnectors_WE_687650100002_FLEX
+# antmicro-alvium-flex-csi-adapter_WE_687650100002_FLEX
 #
-DEF antmicroFCCConnectors_WE_687650100002_FLEX J 0 40 Y N 1 F N
+DEF antmicro-alvium-flex-csi-adapter_WE_687650100002_FLEX J 0 40 Y N 1 F N
 F0 "J" 0 1700 50 H V C CNN
-F1 "antmicroFCCConnectors_WE_687650100002_FLEX" -100 -3450 50 H V C CNN
-F2 "antmicro-footprints:WE_687650100002_FLEX" -200 -3550 50 H I C CNN
+F1 "antmicro-alvium-flex-csi-adapter_WE_687650100002_FLEX" -100 -3450 50 H V C CNN
+F2 "antmicro-alvium-flex-csi-adapter-footprints:WE_687650100002_FLEX" -200 -3550 50 H I C CNN
 F3 "" 0 -3650 50 H I C CNN
 F4 "687650100002" 400 -600 60 H I L CNN "MPN"
 F5 "Wurth Elektronik " 650 -1800 60 H I L CNN "Manufacturer"
