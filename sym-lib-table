@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name antmicro-alvium-flex-csi-adapter)(type Legacy)(uri ${KIPRJMOD}/lib/antmicro-alvium-flex-csi-adapter.lib)(options "")(descr ""))
-)
