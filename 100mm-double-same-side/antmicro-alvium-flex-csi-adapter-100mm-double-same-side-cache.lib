@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# WE_687622100002_FLEX
+# antmicro-alvium-flex-csi-adapter_WE_687622100002_FLEX
 #
-DEF WE_687622100002_FLEX J 0 40 Y N 1 F N
+DEF antmicro-alvium-flex-csi-adapter_WE_687622100002_FLEX J 0 40 Y N 1 F N
 F0 "J" 0 1100 50 H V C CNN
-F1 "WE_687622100002_FLEX" -25 -1350 50 H V C CNN
+F1 "antmicro-alvium-flex-csi-adapter_WE_687622100002_FLEX" -25 -1350 50 H V C CNN
 F2 "antmicro-alvium-flex-csi-adapter-100mm-double-opposite-side-footprints:WE_687622100002_FLEX" -125 -1450 50 H I C CNN
 F3 "" 75 -1550 50 H I C CNN
 F4 "687622100002" 275 200 60 H I L CNN "MPN"
@@ -59,11 +59,11 @@ X Pin_9 9 -200 200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# WE_687650100002_FLEX
+# antmicro-alvium-flex-csi-adapter_WE_687650100002_FLEX
 #
-DEF WE_687650100002_FLEX J 0 40 Y N 1 F N
+DEF antmicro-alvium-flex-csi-adapter_WE_687650100002_FLEX J 0 40 Y N 1 F N
 F0 "J" 0 1700 50 H V C CNN
-F1 "WE_687650100002_FLEX" -100 -3450 50 H V C CNN
+F1 "antmicro-alvium-flex-csi-adapter_WE_687650100002_FLEX" -100 -3450 50 H V C CNN
 F2 "antmicro-alvium-flex-csi-adapter-100mm-double-opposite-side-footprints:WE_687650100002_FLEX" -200 -3550 50 H I C CNN
 F3 "" 0 -3650 50 H I C CNN
 F4 "687650100002" 400 -600 60 H I L CNN "MPN"
@@ -173,11 +173,11 @@ X Pin_9 9 -200 800 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# oshw_logo
+# antmicro-alvium-flex-csi-adapter_oshw_logo
 #
-DEF oshw_logo N 0 40 Y Y 1 F N
+DEF antmicro-alvium-flex-csi-adapter_oshw_logo N 0 40 Y Y 1 F N
 F0 "N" 20 40 50 H V C CNN
-F1 "oshw_logo" 30 -150 50 H V C CNN
+F1 "antmicro-alvium-flex-csi-adapter_oshw_logo" 30 -150 50 H V C CNN
 F2 "antmicro-alvium-flex-csi-adapter-footprints:oshw-logo" 20 -240 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

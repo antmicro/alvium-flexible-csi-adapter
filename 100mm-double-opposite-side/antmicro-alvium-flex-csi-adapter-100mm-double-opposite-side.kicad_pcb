@@ -1029,7 +1029,7 @@
   (gr_line (start 159.13 106.94) (end 157.89 106.94) (layer B.SilkS) (width 0.12))
   (gr_line (start 158.54 106.55) (end 158.54 107.65) (layer B.SilkS) (width 0.12))
   (gr_circle (center 158.52 105.98) (end 158.18 106.41) (layer B.SilkS) (width 0.12))
-  (gr_text "Antmicro Alvium\nFlex CSI Adapter\n100mm double\nopposite contacts\nRev. 1.0.0" (at 88.28 86.98 270) (layer B.SilkS) (tstamp 5F876B8B)
+  (gr_text "Antmicro Alvium\nFlex CSI Adapter\n100mm double\nopposite side contacts\nRev. 1.0.0" (at 88.28 86.98 270) (layer B.SilkS) (tstamp 5F876B8B)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
   (gr_line (start 110.35 28) (end 135.8 28) (layer F.Fab) (width 0.2))
