@@ -436,12 +436,12 @@ Antmicro CSI interface
 Text Notes 700  825  0    79   ~ 16
 Alvium flex CSI adapter 100mm double opposite side contacts
 $Comp
-L antmicroMechanicalParts:oshw_logo N1
+L antmicro-alvium-flex-csi-adapter:oshw_logo N1
 U 1 1 5F89FCA6
 P 750 7500
 F 0 "N1" H 944 7503 50  0000 L CNN
 F 1 "oshw_logo" H 944 7412 50  0000 L CNN
-F 2 "antmicro-footprints:oshw-logo" H 770 7260 50  0001 C CNN
+F 2 "antmicro-alvium-flex-csi-adapter-footprints:oshw-logo" H 770 7260 50  0001 C CNN
 F 3 "" H 750 7500 50  0001 C CNN
 	1    750  7500
 	1    0    0    -1  
