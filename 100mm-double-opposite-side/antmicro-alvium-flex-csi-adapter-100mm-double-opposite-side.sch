@@ -4322,10 +4322,10 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 EndData
 $EndBitmap
 $Comp
-L antmicro-alvium-flex-csi-adapter:BSS138APW Q?
+L antmicro-alvium-flex-csi-adapter:BSS138APW Q1
 U 1 1 5F898D59
 P 8300 3750
-F 0 "Q?" H 8408 3803 60  0000 L CNN
+F 0 "Q1" H 8408 3803 60  0000 L CNN
 F 1 "BSS138APW" H 8408 3697 60  0000 L CNN
 F 2 "antmicro-alvium-flex-csi-adapter-footprints:SC70-3" H 8500 3950 60  0001 L CNN
 F 3 "" H 8500 4050 60  0001 L CNN
@@ -4351,10 +4351,10 @@ Wire Wire Line
 Text Label 8400 3350 0    50   ~ 0
 F1_C1_GPIO2
 $Comp
-L antmicro-alvium-flex-csi-adapter:BSS138APW Q?
+L antmicro-alvium-flex-csi-adapter:BSS138APW Q2
 U 1 1 5F8B8E2D
 P 8300 4950
-F 0 "Q?" H 8408 5003 60  0000 L CNN
+F 0 "Q2" H 8408 5003 60  0000 L CNN
 F 1 "BSS138APW" H 8408 4897 60  0000 L CNN
 F 2 "antmicro-alvium-flex-csi-adapter-footprints:SC70-3" H 8500 5150 60  0001 L CNN
 F 3 "" H 8500 5250 60  0001 L CNN
