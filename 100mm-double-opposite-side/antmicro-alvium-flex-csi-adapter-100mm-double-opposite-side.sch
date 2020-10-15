@@ -4321,4 +4321,62 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L antmicro-alvium-flex-csi-adapter:BSS138APW Q?
+U 1 1 5F898D59
+P 8300 3750
+F 0 "Q?" H 8408 3803 60  0000 L CNN
+F 1 "BSS138APW" H 8408 3697 60  0000 L CNN
+F 2 "antmicro-alvium-flex-csi-adapter-footprints:SC70-3" H 8500 3950 60  0001 L CNN
+F 3 "" H 8500 4050 60  0001 L CNN
+F 4 "BSS138PW" H 8500 4250 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 8500 4850 60  0001 L CNN "Manufacturer"
+	1    8300 3750
+	1    0    0    -1  
+$EndComp
+Text Label 7400 4100 0    50   ~ 0
+F1_GND
+Text Label 7900 3850 2    50   ~ 0
+F1_C1_VSYNC
+Wire Wire Line
+	8000 3850 7350 3850
+Wire Wire Line
+	8300 3950 8300 4100
+Wire Wire Line
+	8300 4100 7350 4100
+Wire Wire Line
+	8300 3550 8300 3350
+Wire Wire Line
+	8300 3350 9000 3350
+Text Label 8400 3350 0    50   ~ 0
+F1_C1_GPIO2
+$Comp
+L antmicro-alvium-flex-csi-adapter:BSS138APW Q?
+U 1 1 5F8B8E2D
+P 8300 4950
+F 0 "Q?" H 8408 5003 60  0000 L CNN
+F 1 "BSS138APW" H 8408 4897 60  0000 L CNN
+F 2 "antmicro-alvium-flex-csi-adapter-footprints:SC70-3" H 8500 5150 60  0001 L CNN
+F 3 "" H 8500 5250 60  0001 L CNN
+F 4 "BSS138PW" H 8500 5450 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 8500 6050 60  0001 L CNN "Manufacturer"
+	1    8300 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 5050 7350 5050
+Wire Wire Line
+	8300 5150 8300 5300
+Wire Wire Line
+	8300 5300 7350 5300
+Wire Wire Line
+	8300 4750 8300 4550
+Wire Wire Line
+	8300 4550 9000 4550
+Text Label 7900 5050 2    50   ~ 0
+F1_C2_VSYNC
+Text Label 7400 5300 0    50   ~ 0
+F1_GND
+Text Label 8450 4550 0    50   ~ 0
+F1_C2_GPIO2
 $EndSCHEMATC
