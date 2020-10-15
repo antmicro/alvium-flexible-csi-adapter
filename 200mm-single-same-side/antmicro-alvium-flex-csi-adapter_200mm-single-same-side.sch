@@ -1,276 +1,276 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Antmicro Alvium flex CSI adapter"
+Title "Alvium flex CSI adapter 200mm single same side contacts"
 Date ""
 Rev "1.0.1"
 Comp ""
-Comment1 ""
-Comment2 "www.antmicro.com"
-Comment3 "Antmicro Ltd."
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
+Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 875  800  0    79   ~ 16
-Antmicro - Alvium Flex CSI Adapter
+Alvium flex CSI adapter 200mm single same side contacts
 Text Notes 925  1525 0    59   ~ 0
 Flexible PCB for connecting\nAllied Vision embedded vision cameras\nto Antmicro's hardware platforms using MIPI CSI-2 interface.
-Text Label 1825 4975 0    50   ~ 0
+Text Label 6675 5975 0    50   ~ 0
 CSI0_D0_P
-Text Label 1825 4875 0    50   ~ 0
+Text Label 6675 5875 0    50   ~ 0
 CSI0_D0_N
-Text Label 1825 4675 0    50   ~ 0
+Text Label 6675 5675 0    50   ~ 0
 CSI0_D1_P
-Text Label 1825 4575 0    50   ~ 0
+Text Label 6675 5575 0    50   ~ 0
 CSI0_D1_N
-Text Label 1825 4375 0    50   ~ 0
+Text Label 6675 5375 0    50   ~ 0
 CSI0_CLK_P
-Text Label 1825 4275 0    50   ~ 0
+Text Label 6675 5275 0    50   ~ 0
 CSI0_CLK_N
-Text Label 1825 4075 0    50   ~ 0
+Text Label 6675 5075 0    50   ~ 0
 CSI1_D0_P
-Text Label 1825 3975 0    50   ~ 0
+Text Label 6675 4975 0    50   ~ 0
 CSI1_D0_N
-Text Label 1825 3775 0    50   ~ 0
+Text Label 6675 4775 0    50   ~ 0
 CSI1_D1_P
-Text Label 1825 3675 0    50   ~ 0
+Text Label 6675 4675 0    50   ~ 0
 CSI1_D1_N
-Text Label 1925 3175 0    50   ~ 0
+Text Label 6775 4175 0    50   ~ 0
 SDA
 Wire Wire Line
-	1475 4175 1775 4175
+	6325 5175 6625 5175
 Wire Wire Line
-	1775 4175 1775 4475
-Connection ~ 1775 4475
+	6625 5175 6625 5475
+Connection ~ 6625 5475
 Wire Wire Line
-	1475 4475 1775 4475
+	6325 5475 6625 5475
 Wire Wire Line
-	1775 4475 1775 4775
-Connection ~ 1775 4775
+	6625 5475 6625 5775
+Connection ~ 6625 5775
 Wire Wire Line
-	1475 4775 1775 4775
+	6325 5775 6625 5775
 Wire Wire Line
-	1775 4775 1775 5075
+	6625 5775 6625 6075
 Wire Wire Line
-	1775 5075 1775 5525
-Connection ~ 1775 5075
+	6625 6075 6625 6525
+Connection ~ 6625 6075
 Wire Wire Line
-	1475 5075 1775 5075
-Connection ~ 1775 4175
+	6325 6075 6625 6075
+Connection ~ 6625 5175
 Wire Wire Line
-	1775 3875 1775 4175
+	6625 4875 6625 5175
 Wire Wire Line
-	1475 3875 1775 3875
+	6325 4875 6625 4875
 Wire Wire Line
-	1475 3575 1775 3575
+	6325 4575 6625 4575
 Wire Wire Line
-	1775 3575 1775 3275
-Connection ~ 1775 3275
+	6625 4575 6625 4275
+Connection ~ 6625 4275
 Wire Wire Line
-	1475 3275 1775 3275
+	6325 4275 6625 4275
 Wire Wire Line
-	1775 3275 1775 2975
+	6625 4275 6625 3975
 Wire Wire Line
-	1775 2975 1775 2675
-Connection ~ 1775 2975
+	6625 3975 6625 3675
+Connection ~ 6625 3975
 Wire Wire Line
-	1475 2975 1775 2975
+	6325 3975 6625 3975
 $Comp
 L antmicro-alvium-flex-csi-adapter:WE_687622100002_FLEX J1
 U 1 1 5FDBA962
-P 1275 3975
-F 0 "J1" H 1275 5100 50  0000 C CNN
-F 1 "WE_687622100002_FLEX" V 1400 3275 50  0000 C CNN
-F 2 "antmicro-alvium-flex-csi-adapter-footprints:WE_687622100002_FLEX" H 1150 2525 50  0001 C CNN
-F 3 "" H 1350 2425 50  0001 C CNN
-F 4 "687622100002" H 1550 4175 60  0001 L CNN "MPN"
-F 5 "Wurth Elektronik " H 1550 4050 60  0001 L CNN "Manufacturer"
-	1    1275 3975
+P 6125 4975
+F 0 "J1" H 6125 6100 50  0000 C CNN
+F 1 "WE_687622100002_FLEX" V 6250 4275 50  0000 C CNN
+F 2 "antmicro-alvium-flex-csi-adapter-footprints:WE_687622100002_FLEX" H 6000 3525 50  0001 C CNN
+F 3 "" H 6200 3425 50  0001 C CNN
+F 4 "687622100002" H 6400 5175 60  0001 L CNN "MPN"
+F 5 "Wurth Elektronik " H 6400 5050 60  0001 L CNN "Manufacturer"
+	1    6125 4975
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1475 3175 2375 3175
+	6325 4175 7225 4175
 Wire Wire Line
-	1475 3075 2375 3075
+	6325 4075 7225 4075
 Wire Wire Line
-	1475 3375 2375 3375
+	6325 4375 7225 4375
 Wire Wire Line
-	1475 3475 2375 3475
+	6325 4475 7225 4475
 Wire Wire Line
-	1475 3675 2375 3675
+	6325 4675 7225 4675
 Wire Wire Line
-	1475 3775 2375 3775
+	6325 4775 7225 4775
 Wire Wire Line
-	1475 3975 2375 3975
+	6325 4975 7225 4975
 Wire Wire Line
-	1475 4075 2375 4075
+	6325 5075 7225 5075
 Wire Wire Line
-	1475 4275 2375 4275
+	6325 5275 7225 5275
 Wire Wire Line
-	1475 4375 2375 4375
+	6325 5375 7225 5375
 Wire Wire Line
-	1475 4575 2375 4575
+	6325 5575 7225 5575
 Wire Wire Line
-	1475 4675 2375 4675
+	6325 5675 7225 5675
 Wire Wire Line
-	1475 4875 2375 4875
+	6325 5875 7225 5875
 Wire Wire Line
-	1475 4975 2375 4975
-Text Label 1925 3375 0    50   ~ 0
+	6325 5975 7225 5975
+Text Label 6775 4375 0    50   ~ 0
 GPIO2
-Text Label 1925 3475 0    50   ~ 0
+Text Label 6775 4475 0    50   ~ 0
 GPIO3
 Wire Wire Line
-	1775 2675 2325 2675
-Text Label 1925 2675 0    50   ~ 0
+	6625 3675 7175 3675
+Text Label 6775 3675 0    50   ~ 0
 5V
 Wire Wire Line
-	1775 5525 2375 5525
-Text Label 1825 5525 0    50   ~ 0
+	6625 6525 7225 6525
+Text Label 6675 6525 0    50   ~ 0
 GND
-Text Notes 825  2100 0    79   ~ 16
-FFC contacts - Alvium side
-NoConn ~ 5250 5425
-Text Notes 4925 2050 0    79   ~ 16
-FFC contacts - Antmicro side
-NoConn ~ 5250 6625
-NoConn ~ 5250 6525
-NoConn ~ 5250 6725
-NoConn ~ 5250 6825
-NoConn ~ 5250 6925
-NoConn ~ 5250 7025
-NoConn ~ 5250 6225
-NoConn ~ 5250 6125
-NoConn ~ 5250 6025
-NoConn ~ 5250 5925
-NoConn ~ 5250 5825
-NoConn ~ 5250 5725
-NoConn ~ 5250 5625
-NoConn ~ 5250 5525
-NoConn ~ 5250 5325
-NoConn ~ 5250 2325
-NoConn ~ 5250 2425
-NoConn ~ 5250 2525
-NoConn ~ 5250 2625
-NoConn ~ 5250 2725
-NoConn ~ 5250 2825
-NoConn ~ 5250 2925
-NoConn ~ 5250 3025
-NoConn ~ 5250 3225
-NoConn ~ 5250 3325
-NoConn ~ 5250 3525
-NoConn ~ 5250 3625
-NoConn ~ 5250 3825
-NoConn ~ 5250 3925
-Text Label 4600 7325 0    50   ~ 0
+Text Notes 6075 3150 0    79   ~ 16
+Alvium Camera
+NoConn ~ 10100 6425
+Text Notes 9775 3050 0    79   ~ 16
+Antmicro CSI interface
+NoConn ~ 10100 7625
+NoConn ~ 10100 7525
+NoConn ~ 10100 7725
+NoConn ~ 10100 7825
+NoConn ~ 10100 7925
+NoConn ~ 10100 8025
+NoConn ~ 10100 7225
+NoConn ~ 10100 7125
+NoConn ~ 10100 7025
+NoConn ~ 10100 6925
+NoConn ~ 10100 6825
+NoConn ~ 10100 6725
+NoConn ~ 10100 6625
+NoConn ~ 10100 6525
+NoConn ~ 10100 6325
+NoConn ~ 10100 3325
+NoConn ~ 10100 3425
+NoConn ~ 10100 3525
+NoConn ~ 10100 3625
+NoConn ~ 10100 3725
+NoConn ~ 10100 3825
+NoConn ~ 10100 3925
+NoConn ~ 10100 4025
+NoConn ~ 10100 4225
+NoConn ~ 10100 4325
+NoConn ~ 10100 4525
+NoConn ~ 10100 4625
+NoConn ~ 10100 4825
+NoConn ~ 10100 4925
+Text Label 9450 8325 0    50   ~ 0
 GND
 Wire Wire Line
-	5050 7325 4500 7325
-Text Label 4600 7125 0    50   ~ 0
+	9900 8325 9350 8325
+Text Label 9450 8125 0    50   ~ 0
 5V
-Text Label 4550 6325 0    50   ~ 0
+Text Label 9400 7325 0    50   ~ 0
 SDA
-Text Label 4550 6425 0    50   ~ 0
+Text Label 9400 7425 0    50   ~ 0
 SCL
-Text Label 4500 4125 0    50   ~ 0
+Text Label 9350 5125 0    50   ~ 0
 CSI1_D1_N
-Text Label 4500 4225 0    50   ~ 0
+Text Label 9350 5225 0    50   ~ 0
 CSI1_D1_P
-Text Label 4500 4325 0    50   ~ 0
+Text Label 9350 5325 0    50   ~ 0
 CSI1_D0_N
-Text Label 4500 4425 0    50   ~ 0
+Text Label 9350 5425 0    50   ~ 0
 CSI1_D0_P
-Text Label 4500 4525 0    50   ~ 0
+Text Label 9350 5525 0    50   ~ 0
 CSI0_D1_N
-Text Label 4500 4625 0    50   ~ 0
+Text Label 9350 5625 0    50   ~ 0
 CSI0_D1_P
-Text Label 4500 4725 0    50   ~ 0
+Text Label 9350 5725 0    50   ~ 0
 CSI0_D0_N
-Text Label 4500 4825 0    50   ~ 0
+Text Label 9350 5825 0    50   ~ 0
 CSI0_D0_P
-Text Label 4500 5025 0    50   ~ 0
+Text Label 9350 6025 0    50   ~ 0
 CSI0_CLK_N
-Text Label 4500 5125 0    50   ~ 0
+Text Label 9350 6125 0    50   ~ 0
 CSI0_CLK_P
 Wire Wire Line
-	5250 5125 4450 5125
+	10100 6125 9300 6125
 Wire Wire Line
-	5250 5025 4450 5025
+	10100 6025 9300 6025
 Wire Wire Line
-	5250 4825 4450 4825
+	10100 5825 9300 5825
 Wire Wire Line
-	5250 4725 4450 4725
+	10100 5725 9300 5725
 Wire Wire Line
-	5250 4625 4450 4625
+	10100 5625 9300 5625
 Wire Wire Line
-	5250 4525 4450 4525
+	10100 5525 9300 5525
 Wire Wire Line
-	5250 4425 4450 4425
+	10100 5425 9300 5425
 Wire Wire Line
-	5250 4325 4450 4325
+	10100 5325 9300 5325
 Wire Wire Line
-	5250 4225 4450 4225
+	10100 5225 9300 5225
 Wire Wire Line
-	5250 4125 4450 4125
+	10100 5125 9300 5125
 Wire Wire Line
-	5250 6425 4450 6425
+	10100 7425 9300 7425
 Wire Wire Line
-	5250 6325 4450 6325
+	10100 7325 9300 7325
 Wire Wire Line
-	5050 5225 5050 7325
-Connection ~ 5050 5225
+	9900 6225 9900 8325
+Connection ~ 9900 6225
 Wire Wire Line
-	5250 5225 5050 5225
+	10100 6225 9900 6225
 Wire Wire Line
-	5050 4925 5050 5225
-Connection ~ 5050 4925
+	9900 5925 9900 6225
+Connection ~ 9900 5925
 Wire Wire Line
-	5250 4925 5050 4925
+	10100 5925 9900 5925
 Wire Wire Line
-	5050 4025 5050 4925
-Connection ~ 5050 4025
+	9900 5025 9900 5925
+Connection ~ 9900 5025
 Wire Wire Line
-	5250 4025 5050 4025
+	10100 5025 9900 5025
 Wire Wire Line
-	5050 3725 5050 4025
-Connection ~ 5050 3725
+	9900 4725 9900 5025
+Connection ~ 9900 4725
 Wire Wire Line
-	5250 3725 5050 3725
+	10100 4725 9900 4725
 Wire Wire Line
-	5050 3425 5050 3725
-Connection ~ 5050 3425
+	9900 4425 9900 4725
+Connection ~ 9900 4425
 Wire Wire Line
-	5050 3125 5050 3425
+	9900 4125 9900 4425
 Wire Wire Line
-	5250 3425 5050 3425
+	10100 4425 9900 4425
 Wire Wire Line
-	5150 7125 4500 7125
-Connection ~ 5150 7125
+	10000 8125 9350 8125
+Connection ~ 10000 8125
 Wire Wire Line
-	5150 7225 5150 7125
+	10000 8225 10000 8125
 Wire Wire Line
-	5250 7225 5150 7225
+	10100 8225 10000 8225
 Wire Wire Line
-	5250 7125 5150 7125
+	10100 8125 10000 8125
 Wire Wire Line
-	5250 3125 5050 3125
+	10100 4125 9900 4125
 $Comp
 L antmicro-alvium-flex-csi-adapter:WE_687650100002_FLEX J2
 U 1 1 5FE0645A
-P 5450 3925
-F 0 "J2" H 5375 5650 50  0000 L CNN
-F 1 "WE_687650100002_FLEX" V 5550 575 50  0000 L CNN
-F 2 "antmicro-alvium-flex-csi-adapter-footprints:WE_687650100002_FLEX" H 5250 375 50  0001 C CNN
-F 3 "" H 5450 275 50  0001 C CNN
-F 4 "687650100002" H 5850 3325 60  0001 L CNN "MPN"
-F 5 "Wurth Elektronik " H 6100 2125 60  0001 L CNN "Manufacturer"
-	1    5450 3925
+P 10300 4925
+F 0 "J2" H 10225 6650 50  0000 L CNN
+F 1 "WE_687650100002_FLEX" V 10400 1575 50  0000 L CNN
+F 2 "antmicro-alvium-flex-csi-adapter-footprints:WE_687650100002_FLEX" H 10100 1375 50  0001 C CNN
+F 3 "" H 10300 1275 50  0001 C CNN
+F 4 "687650100002" H 10700 4325 60  0001 L CNN "MPN"
+F 5 "Wurth Elektronik " H 10950 3125 60  0001 L CNN "Manufacturer"
+	1    10300 4925
 	1    0    0    -1  
 $EndComp
 $Bitmap
-Pos 3050 7250
+Pos 3150 10650
 Scale 0.150000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 B0 00 00 04 B0 08 02 00 00 00 64 43 24 
@@ -3429,7 +3429,7 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 EndData
 $EndBitmap
 $Bitmap
-Pos 1500 7250
+Pos 1600 10650
 Scale 0.400000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 F7 00 00 01 94 08 06 00 00 00 59 42 C7 
@@ -4144,6 +4144,17 @@ BE CB B4 52 EF 44 A9 07 00 00 00 EC 1B E5 1E 3B A1 94 32 49 72 30 FC 4C F2 FE B2
 79 92 B9 4D 3D 00 00 00 60 9F FD 1F 44 C9 B2 85 96 EC AA 6C 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Label 1925 3075 0    50   ~ 0
+Text Label 6775 4075 0    50   ~ 0
 SCL
+$Comp
+L antmicro-alvium-flex-csi-adapter:oshw_logo N1
+U 1 1 5F892C64
+P 4000 10650
+F 0 "N1" H 4194 10653 50  0000 L CNN
+F 1 "oshw_logo" H 4194 10562 50  0000 L CNN
+F 2 "antmicro-alvium-flex-csi-adapter-footprints:oshw-logo" H 4020 10410 50  0001 C CNN
+F 3 "" H 4000 10650 50  0001 C CNN
+	1    4000 10650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
