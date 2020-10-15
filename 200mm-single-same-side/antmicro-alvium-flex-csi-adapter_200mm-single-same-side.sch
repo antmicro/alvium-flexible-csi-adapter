@@ -132,7 +132,6 @@ Text Label 6675 6525 0    50   ~ 0
 GND
 Text Notes 6075 3150 0    79   ~ 16
 Alvium Camera
-NoConn ~ 10100 6425
 Text Notes 9775 3050 0    79   ~ 16
 Antmicro CSI interface
 NoConn ~ 10100 7625
@@ -4157,4 +4156,37 @@ F 3 "" H 4000 10650 50  0001 C CNN
 	1    4000 10650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10100 6425 9275 6425
+Text Label 9350 6425 0    50   ~ 0
+VSYNC
+Text Label 7725 5225 0    50   ~ 0
+VSYNC
+Text Label 8475 4725 0    50   ~ 0
+GPIO2
+Text Label 7725 5525 0    50   ~ 0
+GND
+$Comp
+L antmicro-alvium-flex-csi-adapter:BSS138APW Q1
+U 1 1 5F8886C3
+P 8325 5125
+F 0 "Q1" H 8433 5178 60  0000 L CNN
+F 1 "BSS138APW" H 8433 5072 60  0000 L CNN
+F 2 "antmicro-alvium-flex-csi-adapter-footprints:SC70-3" H 8525 5325 60  0001 L CNN
+F 3 "" H 8525 5425 60  0001 L CNN
+F 4 "BSS138PW" H 8525 5625 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 8525 6225 60  0001 L CNN "Manufacturer"
+	1    8325 5125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8325 5325 8325 5525
+Wire Wire Line
+	8325 5525 7650 5525
+Wire Wire Line
+	8025 5225 7650 5225
+Wire Wire Line
+	8325 4925 8325 4725
+Wire Wire Line
+	8325 4725 8900 4725
 $EndSCHEMATC
