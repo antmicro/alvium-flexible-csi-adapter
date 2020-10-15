@@ -132,7 +132,6 @@ Text Label 1825 5525 0    50   ~ 0
 GND
 Text Notes 825  2100 0    79   ~ 16
 FFC contacts - Alvium side
-NoConn ~ 5250 5425
 Text Notes 4925 2050 0    79   ~ 16
 FFC contacts - Antmicro side
 NoConn ~ 5250 6625
@@ -4146,4 +4145,39 @@ EndData
 $EndBitmap
 Text Label 1925 3075 0    50   ~ 0
 SCL
+$Comp
+L antmicro-alvium-flex-csi-adapter:BSS138APW Q1
+U 1 1 5F92A017
+P 3600 3450
+F 0 "Q1" H 3708 3503 60  0000 L CNN
+F 1 "BSS138APW" H 3708 3397 60  0000 L CNN
+F 2 "antmicro-alvium-flex-csi-adapter-footprints:SC70-3" H 3800 3650 60  0001 L CNN
+F 3 "" H 3800 3750 60  0001 L CNN
+F 4 "BSS138PW" H 3800 3950 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 3800 4550 60  0001 L CNN "Manufacturer"
+	1    3600 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3650 3600 3900
+Wire Wire Line
+	3600 3900 2950 3900
+Wire Wire Line
+	3300 3550 2950 3550
+Wire Wire Line
+	3600 3250 3600 3050
+Wire Wire Line
+	3600 3050 4200 3050
+Text Label 3750 3050 0    50   ~ 0
+GPIO2
+Text Label 3000 3900 0    50   ~ 0
+GND
+Text Label 4507 5425 0    50   ~ 0
+VSYNC
+Text Label 3000 3550 0    50   ~ 0
+VSYNC
+Wire Wire Line
+	5250 5425 4458 5425
+Wire Wire Line
+	4458 5425 4458 5428
 $EndSCHEMATC
