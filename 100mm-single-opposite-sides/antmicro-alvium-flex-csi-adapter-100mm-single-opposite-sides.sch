@@ -270,7 +270,6 @@ Wire Wire Line
 	5875 4075 5875 4375
 Text Notes 925  1525 0    59   ~ 0
 Flexible PCB for connecting\nAllied Vision embedded vision cameras\nto Antmicro's hardware platforms using MIPI CSI-2 interface.
-NoConn ~ 9450 6575
 $Bitmap
 Pos 3100 10700
 Scale 0.150000
@@ -4157,4 +4156,37 @@ F 3 "" H 4050 10650 50  0001 C CNN
 	1    4050 10650
 	1    0    0    -1  
 $EndComp
+$Comp
+L antmicro-alvium-flex-csi-adapter:BSS138APW Q1
+U 1 1 5F8882DA
+P 7700 4950
+F 0 "Q1" H 7808 5003 60  0000 L CNN
+F 1 "BSS138APW" H 7808 4897 60  0000 L CNN
+F 2 "antmicro-alvium-flex-csi-adapter-footprints:SC70-3" H 7900 5150 60  0001 L CNN
+F 3 "" H 7900 5250 60  0001 L CNN
+F 4 "BSS138PW" H 7900 5450 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 7900 6050 60  0001 L CNN "Manufacturer"
+	1    7700 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 5150 7700 5250
+Wire Wire Line
+	7700 5250 6950 5250
+Wire Wire Line
+	7400 5050 6950 5050
+Wire Wire Line
+	7700 4750 7700 4550
+Wire Wire Line
+	7700 4550 8350 4550
+Text Label 7000 5250 0    50   ~ 0
+GND
+Text Label 7850 4550 0    50   ~ 0
+GPIO2
+Wire Wire Line
+	9450 6575 8662 6575
+Text Label 8709 6575 0    50   ~ 0
+VSYNC
+Text Label 7000 5050 0    50   ~ 0
+VSYNC
 $EndSCHEMATC
