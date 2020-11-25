@@ -38,6 +38,7 @@ The flexible adapters are electrically compatible with the following platforms r
 * `Antmicro TX2 Deep Learning Platform <https://github.com/antmicro/jetson-tx2-deep-learning-platform>`_ - carrier board supporting NVIDIA TX2/TX2i/TX1 System-on-Modules
 * `Google Coral Baseboard <https://github.com/antmicro/google-coral-baseboard>`_ - carrier board supporting the Google Coral System-on-Module
 * `Zynq Video Board <https://github.com/antmicro/zynq-video-board>`_ - experimental evaluation board supporting Xilinx Zynq and Artix programmable logic devices
+* `Apalis Smart Vision Baseboard <https://github.com/antmicro/apalis-smart-vision-baseboard>`_ - an open source baseboard for the Apalis family of SoMs from Toradex
 
 License
 =======
