@@ -2,7 +2,7 @@
 Antmicro - Alvium flexible CSI adapter
 ======================================
 
-Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
 
 .. image:: img/antmicro-alvium-flex-csi-adapter.png
    :scale: 30%
@@ -43,4 +43,4 @@ The flexible adapters are electrically compatible with the following platforms r
 License
 =======
 
-`MIT <LICENSE>`_
+`Apache-2.0 <LICENSE>`_
