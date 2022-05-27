@@ -4,6 +4,9 @@ Antmicro - Alvium flexible CSI adapter
 
 Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
 
+.. image:: https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square
+   :target: https://opensource.antmicro.com/projects/alvium-flexible-csi-adapter
+
 .. image:: img/antmicro-alvium-flex-csi-adapter.png
    :scale: 30%
    :align: center
