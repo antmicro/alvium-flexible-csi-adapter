@@ -6,7 +6,7 @@ Copyright (c) 2020-2023 [Antmicro](https://www.antmicro.com)
 
 ![Antmicro-Alvium-Flex-CSI-Adapter](/img/antmicro-alvium-flex-csi-adapter.png)
 
-### Overview
+## Overview
 
 This project contains open hardware design files for Antmicro's flexible PCB designed to interface Allied Vision's [ALVIUM series](https://www.alliedvision.com/en/products/embedded-vision-cameras.html) embedded vision cameras featuring MIPI CSI-2 with a range of hardware platforms by Antmicro.
 The design files were prepared in KiCad. There is a number of variants of the adapter provided as separate KiCad projects. Those variants differ in length and orientation of pin '1'.
